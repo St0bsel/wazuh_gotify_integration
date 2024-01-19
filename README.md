@@ -1,0 +1,1 @@
+# wazuh_gotify_integration
