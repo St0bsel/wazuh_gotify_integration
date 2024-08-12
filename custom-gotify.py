@@ -50,6 +50,11 @@ issue_data = {
     "message": format_json_as_markdown(alert_json),
     "priority": alert_level,
     "title": agentname + " " + description,
+    "extras": {
+    "client::display": {
+        "contentType":"text/markdown"
+        }
+    }
 }
 
 # Send the request
